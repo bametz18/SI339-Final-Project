@@ -14,10 +14,10 @@
     <div class = "skip"><a href="#main">Skip To Main Content</a></div>
     <header>
         <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href="rap.html">Rap</a></li>
-                <li><a href="other.html">All Other Genres</a></li>
+            <ul class="nav_links">
+                <li class="nav_object"><a href = "index.html">Home</a></li>
+                <li class="nav_object"><a href="rap.html">Rap</a></li>
+                <li class="nav_object"><a href="other.html">All Other Genres</a></li>
             </ul>
         </nav>
         <h1>My Favorite Non-Rap Tiny Desk Concerts</h1>
@@ -25,37 +25,66 @@
     </header>
     <main>
         <div class = "flex_gallery" id = "main">
-            <a href = "images/hobojohnson_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "10. Hobo Johnson" data-alt = "A Picture of Singer: Hobo Johnson">
-                <img src="images/hobojohnson_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: hobo johnson">
-            </a>
-            <a href = "images/margaretglaspy_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "9. Margaret Glaspy" data-alt = "A Picture of Singer: Margaret Glaspy">
-                <img src="images/margaretglaspy_pic.jpg"  width = "200px" height = "200px" alt="a picture of singer: margaretglaspy_pic">
-            </a>
-
-            <a href = "images/jorjasmith_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "8. Jorja Smith" data-alt = "A Picture of Singer: Jorja Smith">
-                <img src="images/jorjasmith_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: jorja smith">
-            </a>
-            <a href = "images/harrystyles_pic.png" target = "_blank" data-lightbox = "singer" data-title = "7. Harry Styles" data-alt = "A Picture of Singer: Harry Styles">
-                <img src="images/harrystyles_pic.png" width = "200px" height = "200px" alt="a picture of singer: harry styles">
-            </a>
-            <a href = "images/coldplay_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "6. Coldplay" data-alt = "A Picture of Pop Group: Coldplay">    
-                <img src="images/coldplay_pic.jpg" width = "200px" height = "200px" alt="a picture of pop group: coldplay">
-            </a>
-            <a href = "images/adele_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "5. Adele" data-alt = "A Picture of Singer: Adele">
-            <img src="images/adele_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: adele">
-            </a>
-            <a href = "images/declanmckenna_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "4. Declan McKenna" data-alt = "A Picture of Singer: Declan Mckenna">
-                <img src="images/declanmckenna_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: declan mckenna">
-            </a>
-            <a href = "images/sting-shaggy_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "3. Sting & Shaggy" data-alt = "A Picture of Singers: Sting and Shaggy">
-                <img src="images/sting-shaggy_pic.jpg" width = "200px" height = "200px" alt="a picture of singers: sting and shaggy">
-            </a>
-            <a href = "images/jacobcollier_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "2. Jacob Collier" data-alt = "A Picture of Singer: Jacob Collier">
-                <img src="images/jacobcollier_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: jacob collier">
-            </a>
-            <a href = "images/jonbatiste_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "1. Jon Batiste" data-alt = "A Picture of Singer: Jon Batiste">
-                <img src="images/jonbatiste_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: Jon Batiste">
-            </a>
+            <div class="card">
+                <header><h3>10. Hobo Johnson</h3></header>
+                <a href = "images/hobojohnson_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "10. Hobo Johnson" data-alt = "A Picture of Singer: Hobo Johnson">
+                    <img src="images/hobojohnson_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: hobo johnson">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>9. Margaret Glaspy</h3></header>
+                <a href = "images/margaretglaspy_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "9. Margaret Glaspy" data-alt = "A Picture of Singer: Margaret Glaspy">
+                    <img src="images/margaretglaspy_pic.jpg"  width = "200px" height = "200px" alt="a picture of singer: margaretglaspy_pic">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>8. Jorja Smith</h3></header>
+                <a href = "images/jorjasmith_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "8. Jorja Smith" data-alt = "A Picture of Singer: Jorja Smith">
+                    <img src="images/jorjasmith_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: jorja smith">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>7. Harry Styles</h3></header>
+                <a href = "images/harrystyles_pic.png" target = "_blank" data-lightbox = "singer" data-title = "7. Harry Styles" data-alt = "A Picture of Singer: Harry Styles">
+                    <img src="images/harrystyles_pic.png" width = "200px" height = "200px" alt="a picture of singer: harry styles">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>6. Coldplay</h3></header>
+                <a href = "images/coldplay_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "6. Coldplay" data-alt = "A Picture of Pop Group: Coldplay">    
+                    <img src="images/coldplay_pic.jpg" width = "200px" height = "200px" alt="a picture of pop group: coldplay">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>5. Adele</h3></header>
+                <a href = "images/adele_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "5. Adele" data-alt = "A Picture of Singer: Adele">
+                    <img src="images/adele_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: adele">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>4. Declan McKenna</h3></header>
+                <a href = "images/declanmckenna_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "4. Declan McKenna" data-alt = "A Picture of Singer: Declan Mckenna">
+                    <img src="images/declanmckenna_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: declan mckenna">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>3. Sting & Shaggy</h3></header>
+                <a href = "images/sting-shaggy_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "3. Sting & Shaggy" data-alt = "A Picture of Singers: Sting and Shaggy">
+                    <img src="images/sting-shaggy_pic.jpg" width = "200px" height = "200px" alt="a picture of singers: sting and shaggy">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>2. Jacob Collier</h3></header>
+                <a href = "images/jacobcollier_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "2. Jacob Collier" data-alt = "A Picture of Singer: Jacob Collier">
+                    <img src="images/jacobcollier_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: jacob collier">
+                </a>
+            </div>
+            <div class="card">
+                <header><h3>1. Jon Batiste</h3></header>
+                <a href = "images/jonbatiste_pic.jpg" target = "_blank" data-lightbox = "singer" data-title = "1. Jon Batiste" data-alt = "A Picture of Singer: Jon Batiste">
+                    <img src="images/jonbatiste_pic.jpg" width = "200px" height = "200px" alt="a picture of singer: Jon Batiste">
+                </a>
+            </div>
         </div>
     </main>
     <script>
