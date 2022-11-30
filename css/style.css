@@ -3,13 +3,17 @@ body{
     padding: 0;
     font-size: 16pt; /* test for this! Make all sizes em or rem */
     font-family: 'Poppins', serif;
-    background-color: #f1f1f1;
+    background-color: #7393B3;
 }
   
-header{
-    background: #fff;
-    border-bottom: 3px solid goldenrod;
+body header{
+    border-bottom: 3px solid lightblue;
     margin-bottom:20px;
+}
+
+footer{
+    color: white;
+    background-color: black;
 }
 
 .home_image{
@@ -36,14 +40,26 @@ p{
 }
 
 .nav_links{
-    display: inline;
-    padding-left: 20px;
+    left: 0px;
+    height: 70px;
+    background: linear-gradient(90deg, #fdfdfd 0%, lightgoldenrodyellow 25%, goldenrod 50%, #fffdfd 100%);
+    border: 2px black;
+    width: 100%;
 }
 
-nav a{
-    color: black;
-    font-weight: bold;
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
     text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
 }
 
 .skip a{
@@ -62,14 +78,9 @@ nav a{
     top: 20px;
 }
 
+
 nav a:visited{
     color: black;
-}
-
-nav{
-    background-color: goldenrod;
-    padding: 15px 0;
-    text-align: left;
 }
 
 nav a:hover{
@@ -85,11 +96,8 @@ nav a:focus{
 }
 
 .grid_gallery{
-    border: 3px solid black;
-    width: 100%;
+    width: 95%;
     margin: 15px auto;
-    background-color: lightblue;
-
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-evenly;
@@ -106,8 +114,23 @@ nav a:focus{
 }
 
 .card{
-    border: 5px solid blue;
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    background-color: lightblue;
 }
+
+.card header{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card img{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 @media screen and (min-width: 700px){
@@ -123,10 +146,8 @@ nav a:focus{
 }
 
 .flex_gallery{
-    border: 3px solid black;
-    width: 100%;
+    width: 95%;
     margin: 15px auto;
-    background-color: lightblue;
    
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +159,3 @@ nav a:focus{
     width: 90%;
     border: 4px solid goldenrod;
 }
-
-/* ul{
-    list-style: none;
-} */
