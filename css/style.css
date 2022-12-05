@@ -12,6 +12,8 @@ body header{
 }
 
 footer{
+    padding-top: 5px;
+    padding-left: 10px;
     color: white;
     background-color: black;
 }
@@ -56,7 +58,6 @@ p{
 nav ul{
     display: flex;
     flex-direction: column;
-
 }
 
 nav ul li a{
@@ -126,10 +127,6 @@ nav a:focus{
 .grid_gallery img{
     width: 90%;
     border: 4px solid goldenrod;
-}
-
-.lb-data .lb-caption{
-    font-size: 32px,
 }
 
 .grid_card{
@@ -213,7 +210,7 @@ nav a:focus{
     }
 
     .nav_links{
-        justify-content: center;
+        text-decoration:dotted;
     }
 }
 
@@ -225,6 +222,7 @@ nav a:focus{
     .nav_links{
         height: 100px;
         flex-direction: row;
+        justify-content: center;
     }
 
     .flex_card{
